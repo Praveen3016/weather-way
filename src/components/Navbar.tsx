@@ -43,6 +43,7 @@ export default function Navbar({ location }: Props) {
       setSuggestions([]);
       setShowSuggestions(false);
     }
+    
   }
 
   function handleSuggestionClick(value: string) {
